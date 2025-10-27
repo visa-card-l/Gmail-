@@ -1,0 +1,14 @@
+{
+  "name": "gmail-email-sender",
+  "version": "1.0.0",
+  "description": "A simple Gmail email sender using Nodemailer and app password",
+  "main": "send.js",
+  "type": "module",
+  "scripts": {
+    "start": "node send.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.8"
+  }
+}
